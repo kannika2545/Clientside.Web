@@ -20,6 +20,7 @@ let myNum = 0;
 console.log(`type of myNum is ${typeof myNum}`);
 
 let myString = 'Good';
+//`` template literal (string literal + ${Javascript Expression})
 console.log(`type of myString is ${typeof myString}`);
 
 let myBool = true;
