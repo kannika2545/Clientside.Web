@@ -48,3 +48,32 @@ function Dice() {
   console.log(p1);
   console.log(p2);
   
+ /*Output 
+  round# 1
+player1 value: 2
+player2 value: 6
+player1 : Lose
+player2 : Win
+round# 2
+player1 value: 5
+player2 value: 3
+player1 : Win
+player2 : Lose
+round# 3
+player1 value: 6
+player2 value: 5
+player1 : Win
+player2 : Lose
+Joe Win!
+{
+  name: 'Joe',
+  faceValues: [ 2, 5, 6 ],
+  results: [ 'Lose', 'Win', 'Win' ]
+}
+{
+  name: 'Ann',
+  faceValues: [ 6, 3, 5 ],
+  results: [ 'Win', 'Lose', 'Lose' ]
+}
+
+*/

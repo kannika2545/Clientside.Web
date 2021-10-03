@@ -44,19 +44,19 @@ switch (year % 12){
 /*-------------------------------------------*/
 
 //ใช้ Function
-function zodiac(year) {
+function sodiac(years) {
     return[
         'monkey','rooster','dog',
         'pig','rat','ox',
         'tiger','rabbit','dragon',
         'snake','horse','sheep'
     ]
-    [Number(year) % 12];
+    [Number(years) % 12];
 };
 
-console.log(zodiac('1900'));
-console.log(zodiac(2002));
-console.log(zodiac('2021'));
+console.log(sodiac('1900'));
+console.log(sodiac(2002));
+console.log(sodiac('2021'));
 
 
 /*--------------------------------ที่อาจารย์ทำ--------------------------------------*/
@@ -108,4 +108,9 @@ function findZodiac(year){
    
     let year=prompt("Enter a year ");
     alert(findZodiac(year));
+
+
+
+
+
    
